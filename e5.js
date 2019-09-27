@@ -6,7 +6,12 @@ class quinto {
 
 let calculaHoras=function(variasHoras){
     let arr=[]
-    
+    for (var i = 0; i < variasHoras.length; i++) {
+      if (variasHoras[i]/60>2){
+        arr[i]=variasHoras[i]
+      }
+    }
+    return arr
 }
 
 let fsuperior=function(hr,callback){
