@@ -11,7 +11,7 @@ let calculaHoras=function(variasHoras){
         arr[i]=variasHoras[i]
       }
     }
-    return arr
+    return "Los minutos que son mas de 2 horas son: "+arr
 }
 
 let fsuperior=function(hr,callback){
